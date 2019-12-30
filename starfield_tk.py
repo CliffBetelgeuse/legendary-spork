@@ -46,7 +46,7 @@ tk=Tk()
 
 canvas=Canvas(tk,width=1000,height=1000,background='black')
 canvas.pack()
-tk.update()     #这一句一定要加，否则window未设置，宽高还会是1，self.c_h=self.canvas.winfo_height()
+tk.update()     
 
 
 stars=[]
