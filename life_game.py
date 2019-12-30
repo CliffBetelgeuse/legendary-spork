@@ -3,9 +3,7 @@ from random import*
 from time import*
 
 '''
-自己编的生命游戏，也能够自己独立编写完成了，尽管实现过一遍
-自己再做一次还是会遇到各种坑，这次遇到的是缩进坑，太烦人了
-实在是太烦人了pytho
+生命游戏turtle实现
 '''
 class Cell(Turtle):
 
