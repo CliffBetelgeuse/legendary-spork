@@ -48,7 +48,7 @@ class World:
 			cells.append(row)
 		self.cells=cells
 		self.n=n
-	def get_neighbors(self):     #这个地方真是坑死了，千万不要tab和空格混用，千万不要，缩进烦死人
+	def get_neighbors(self):     
 		for i in range(self.n):
 			for j in range(self.n): 
 				if j>0:
