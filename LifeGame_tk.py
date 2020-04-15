@@ -26,7 +26,7 @@ class Cell:
         self.now=False
         canvas.itemconfig(self.id,fill='green')
     def set_laws(self,a,b,c,d):
-        self.rep_max_num=a     #之前这里系成了 rep_num_max 这就是名字起得复杂惹的祸，找了半天的bug，我说怎么繁殖法则没有改变啊！
+        self.rep_max_num=a     
         self.rep_mini_num=b
         self.survive_max_num=c
         self.survive_mini_num=d
@@ -182,7 +182,7 @@ e5.place(x='330',y='520')
 b5 = Button(window, text='随机生存\n数开始', bg='cyan',width=7, font=('Arial',10),command=lambda:random_initiate(e5.get()))   #设计按钮
 b5.place(x='330', y='550')
 
-window.update()     #这一句一定要加，否则window未设置，宽高还会是1，self.c_h=self.canvas.winfo_height()
+window.update()     
 
 
 
